@@ -7,6 +7,7 @@ public class Main {
         Dni dni2 = new Dni("15646862J");
         System.out.println(dni2);
 
-        System.out.println();
+        System.out.println(Dni.letterForDni(1547778965));
+        System.out.println(Dni.NifForDni(12545862));
     }
 }
